@@ -1,0 +1,153 @@
+﻿@font-face {
+  font-family: 'ObelixPro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('ObelixPro'), url("./obelixpro.woff") format('woff');
+}
+
+body {
+}
+
+#container {
+	position:						relative;
+	margin-top:						0px;
+	margin-bottom:					0px;
+	margin-left:					auto;
+	margin-right:					auto;
+	text-align:						center;
+	/* background-color:				rgba(93, 24, 24, 1); */
+}
+
+#game {
+	z-index:						0;
+}
+
+#shoot {
+	position:						absolute;
+	height: 						130px;
+	width: 							20%;
+	top: 							20%;
+	left: 							5%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#menu {
+	position:						absolute;
+	height: 						65px;
+	width: 							10%;
+	top: 							3%;
+	left: 							90%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#start {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							20%;
+	left: 							43%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#continue {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							40%;
+	left: 							43%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#rules {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							80%;
+	left: 							43%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#options {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							60%;
+	left: 							43%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#credits {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							80%;
+	left: 							43%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#back {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							90%;
+	left: 							43%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#changelang {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							25%;
+	left: 							43%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#delsave {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							45%;
+	left: 							43%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#delscore {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							65%;
+	left: 							43%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#music {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							85%;
+	left: 							10%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
+
+#sfx {
+	position:						absolute;
+	height: 						50px;
+	width: 							14%;
+	top: 							85%;
+	left: 							50%;
+	z-index: 						-1;
+	/* background-color:				rgba(256, 0, 0, 0.5); */
+}
